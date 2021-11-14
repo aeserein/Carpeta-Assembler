@@ -24,6 +24,7 @@
     <ProjectGuid>{c08ac758-d82d-43aa-a1b7-4a91ccf524ed}</ProjectGuid>
     <RootNamespace>My41Tiposdedato</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>04 - 1 - Tipos de dato</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

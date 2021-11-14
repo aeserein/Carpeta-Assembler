@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1 - 1", "1 - 1\1 - 1.vcxproj", "{7BF488A5-BAEB-4C41-881D-D96A739B5724}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01 - 1", "1 - 1\1 - 1.vcxproj", "{7BF488A5-BAEB-4C41-881D-D96A739B5724}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1 - 2", "1 - 2\1 - 2.vcxproj", "{ABD46CD3-E9A4-4A7E-9AAA-C3454831752F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01 - 2", "1 - 2\1 - 2.vcxproj", "{ABD46CD3-E9A4-4A7E-9AAA-C3454831752F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2 - 1 - Registros", "2 - 1 - Registros\2 - 1 - Registros.vcxproj", "{82545048-2FE8-4308-AC61-81A403E87510}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02 - 1 - Registros", "2 - 1 - Registros\2 - 1 - Registros.vcxproj", "{82545048-2FE8-4308-AC61-81A403E87510}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3 - 1 - Registros 32 y 64 bits", "3 - 1 - Registros 32 y 64 bits\3 - 1 - Registros 32 y 64 bits.vcxproj", "{3E290091-702F-4D15-8CF5-580BCDEE62B4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03 - 1 - Registros 32 y 64 bits", "3 - 1 - Registros 32 y 64 bits\3 - 1 - Registros 32 y 64 bits.vcxproj", "{3E290091-702F-4D15-8CF5-580BCDEE62B4}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4 - 1 - Tipos de dato", "4 - 1 - Tipos de dato\4 - 1 - Tipos de dato.vcxproj", "{C08AC758-D82D-43AA-A1B7-4A91CCF524ED}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04 - 1 - Tipos de dato", "4 - 1 - Tipos de dato\4 - 1 - Tipos de dato.vcxproj", "{C08AC758-D82D-43AA-A1B7-4A91CCF524ED}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5 - 1 - MOV", "5 - 1 - MOV y LEA\5 - 1 - MOV y LEA.vcxproj", "{B33DB241-6CEE-4346-8A16-7707AAA01B92}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05 - 1 - MOV", "5 - 1 - MOV y LEA\5 - 1 - MOV y LEA.vcxproj", "{B33DB241-6CEE-4346-8A16-7707AAA01B92}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5 - 2 - LEA", "5 - 2 - LEA\5 - 2 - LEA.vcxproj", "{4C185886-158D-4815-8959-4C3B94343A22}"
 EndProject
@@ -26,6 +26,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8 - 2 - Rotate", "8 - 2 - Rotate\8 - 2 - Rotate.vcxproj", "{A064C32E-EA37-4F77-99BF-0F0844EF7C4A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9 - 1 - rFlags", "9 - 1 - rFlags\9 - 1 - rFlags.vcxproj", "{06E70AC0-7ADB-48CE-85FE-3126D77D6CC6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10 - 1 - Conditional Jumps", "10 - Conditional Jumps\10 - Conditional Jumps.vcxproj", "{569E3202-9C62-4B31-9D1F-9656841E4C22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -131,6 +133,14 @@ Global
 		{06E70AC0-7ADB-48CE-85FE-3126D77D6CC6}.Release|x64.Build.0 = Release|x64
 		{06E70AC0-7ADB-48CE-85FE-3126D77D6CC6}.Release|x86.ActiveCfg = Release|Win32
 		{06E70AC0-7ADB-48CE-85FE-3126D77D6CC6}.Release|x86.Build.0 = Release|Win32
+		{569E3202-9C62-4B31-9D1F-9656841E4C22}.Debug|x64.ActiveCfg = Debug|x64
+		{569E3202-9C62-4B31-9D1F-9656841E4C22}.Debug|x64.Build.0 = Debug|x64
+		{569E3202-9C62-4B31-9D1F-9656841E4C22}.Debug|x86.ActiveCfg = Debug|Win32
+		{569E3202-9C62-4B31-9D1F-9656841E4C22}.Debug|x86.Build.0 = Debug|Win32
+		{569E3202-9C62-4B31-9D1F-9656841E4C22}.Release|x64.ActiveCfg = Release|x64
+		{569E3202-9C62-4B31-9D1F-9656841E4C22}.Release|x64.Build.0 = Release|x64
+		{569E3202-9C62-4B31-9D1F-9656841E4C22}.Release|x86.ActiveCfg = Release|Win32
+		{569E3202-9C62-4B31-9D1F-9656841E4C22}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

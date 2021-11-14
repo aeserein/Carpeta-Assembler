@@ -24,6 +24,7 @@
     <ProjectGuid>{06e70ac0-7adb-48ce-85fe-3126d77d6cc6}</ProjectGuid>
     <RootNamespace>My91rFlags</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>09 - 1 - rFlags</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

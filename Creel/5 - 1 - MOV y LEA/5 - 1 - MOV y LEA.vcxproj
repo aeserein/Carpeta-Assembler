@@ -24,7 +24,7 @@
     <ProjectGuid>{b33db241-6cee-4346-8a16-7707aaa01b92}</ProjectGuid>
     <RootNamespace>My51MOVyLEA</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>5 - 1 - MOV</ProjectName>
+    <ProjectName>05 - 1 - MOV</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -24,6 +24,7 @@
     <ProjectGuid>{82545048-2fe8-4308-ac61-81a403e87510}</ProjectGuid>
     <RootNamespace>My21Registros</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>02 - 1 - Registros</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
