@@ -24,6 +24,7 @@
     <ProjectGuid>{98601a95-cbe1-49d9-980b-e6e9b4709c51}</ProjectGuid>
     <RootNamespace>My71Booleans</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>07 - 1 - Booleans</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

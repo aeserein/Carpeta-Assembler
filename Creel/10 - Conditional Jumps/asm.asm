@@ -1,7 +1,7 @@
 .code
 JumpOverflow PROC
-	MOV EAX, -9
-	ADD EAX, -12
+	MOV AL, 127
+	ADD AL, 127
 	JO Overflowed			; Si esto da falso, sigue a la siguiente línea
 	JNO DidntOverflow		; Lo que significaría que esta línea sí o sí va a dar verdadero y saltar
 
@@ -16,13 +16,16 @@ JumpOverflow ENDP
 
 ConditionalMoveCarry PROC
 	MOV EBX, 111
-	MOV EAX, -1
+	MOV EAX, 100
 	ADD EAX, 1
+	; CLC	<- Clear Carry Flag
+	;	Si lo descomento pone el carry en 0 y el CMOVC no movea nunca
 	CMOVC EAX, EBX
 	RET
 ConditionalMoveCarry ENDP
 
 ComoHacerUnLoop PROC
+	; RCX se solía usar como contador por convención
 	MOV RAX, 10
 	MOV RBX, 0
 
@@ -40,8 +43,8 @@ ComoHacerUnLoop ENDP
 SetByteCondicional PROC
 	MOV RAX, 10
 	MOV RBX, 10
-	CMP RAX, RBX			; CMP Resta los 2 campos. Si son iguales va a setear el flag Zero
-	SETE CL
+	CMP RAX, RBX			; CMP Resta los 2 campos sin setear el resultado en el primer registro. Si son iguales va a setear el flag Zero
+	SETE CL					; Set Equal
 	RET
 SetByteCondicional ENDP
 
@@ -86,7 +89,7 @@ SetByteSiEsMayor PROC
 SetByteSiEsMayor ENDP
 
 main PROC
-	CALL SetByteSiEsMayor
+	CALL ConditionalMoveCarry
 	RET
 main ENDP
 END

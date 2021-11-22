@@ -24,6 +24,7 @@
     <ProjectGuid>{a064c32e-ea37-4f77-99bf-0f0844ef7c4a}</ProjectGuid>
     <RootNamespace>My82Rotate</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>08 - 2 - Rotate</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

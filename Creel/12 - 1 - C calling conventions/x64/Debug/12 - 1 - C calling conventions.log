@@ -1,0 +1,4 @@
+﻿  Assembling asm.asm...
+  main.cpp
+D:\Programacion\Assembler\Creel\12 - 1 - C calling conventions\main.cpp(42,82): warning C4305: 'argument': truncation from 'double' to 'float'
+  12 - 1 - C calling conventions.vcxproj -> D:\Programacion\Assembler\Creel\x64\Debug\12 - 1 - C calling conventions.exe
