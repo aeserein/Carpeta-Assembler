@@ -43,6 +43,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14 - 1 - Estructuras", "14 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15 - 1 - SIMD", "15 - 1 - SIMD\15 - 1 - SIMD.vcxproj", "{ED8FC0B4-3D2E-4F86-8C06-EED9DE47DF9F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16 - 1 - SIMD con floats", "16 - 1 - SIMD con floats\16 - 1 - SIMD con floats.vcxproj", "{671B9D0C-7B2A-43A5-ACD7-A6BFFAA46DEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -211,6 +213,14 @@ Global
 		{ED8FC0B4-3D2E-4F86-8C06-EED9DE47DF9F}.Release|x64.Build.0 = Release|x64
 		{ED8FC0B4-3D2E-4F86-8C06-EED9DE47DF9F}.Release|x86.ActiveCfg = Release|Win32
 		{ED8FC0B4-3D2E-4F86-8C06-EED9DE47DF9F}.Release|x86.Build.0 = Release|Win32
+		{671B9D0C-7B2A-43A5-ACD7-A6BFFAA46DEF}.Debug|x64.ActiveCfg = Debug|x64
+		{671B9D0C-7B2A-43A5-ACD7-A6BFFAA46DEF}.Debug|x64.Build.0 = Debug|x64
+		{671B9D0C-7B2A-43A5-ACD7-A6BFFAA46DEF}.Debug|x86.ActiveCfg = Debug|Win32
+		{671B9D0C-7B2A-43A5-ACD7-A6BFFAA46DEF}.Debug|x86.Build.0 = Debug|Win32
+		{671B9D0C-7B2A-43A5-ACD7-A6BFFAA46DEF}.Release|x64.ActiveCfg = Release|x64
+		{671B9D0C-7B2A-43A5-ACD7-A6BFFAA46DEF}.Release|x64.Build.0 = Release|x64
+		{671B9D0C-7B2A-43A5-ACD7-A6BFFAA46DEF}.Release|x86.ActiveCfg = Release|Win32
+		{671B9D0C-7B2A-43A5-ACD7-A6BFFAA46DEF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

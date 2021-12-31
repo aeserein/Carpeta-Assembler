@@ -44,7 +44,7 @@
 		16 registros en 64 bits
 		8 registros si el micro es de 32 bits
 		XMM0 -> XMM15
-	AVX
+	AVX (2011)
 		Registros de 32 bits (256 bits)
 		Distintas generaciones
 		YMM0 -> YMM15
